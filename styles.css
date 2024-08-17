@@ -27,9 +27,72 @@ body{
 }
 
 .top-banner{
-    background-image: url(images/brothers.jpg);
+    background-image: url(images/chidren.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
     padding-bottom: 10%;
+}
+
+#donate-header{
+    text-align: center;
+    size: 50px;
+    font-weight: 700;
+}
+
+#donate-paragraph{
+    text-align: center;
+    size: 20px;
+}
+
+.donate-today{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.flexible-container{
+    display: flex;
+    margin: 100px 100px;
+}
+
+.flexible-container-amount{
+    display: flex;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 100px;
+}
+
+.amount-box{
+    width: 70%;
+    margin: 2px 2px;
+    border: 0px solid;
+    padding: 30px;
+    border-radius: 5px;
+    background-color: rgb(237, 232, 232);
+}
+
+.different-box{
+    background-color: rgb(222, 180, 187);
+    border: 2px solid rgb(216, 44, 44);
+    color: rgb(224, 42, 42);
+}
+
+.plan-box{
+    margin: 10px;
+    border: 0px solid;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.food-box{
+    background-color: rgb(222, 232, 235);
+}
+
+.shelter-box{
+    background-color: rgb(241, 220, 223);
+
+}
+
+.medical-box{
+    background-color: rgb(238, 230, 215);
 }
