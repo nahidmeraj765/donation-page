@@ -1,10 +1,14 @@
 body{
     font-family: "Merriweather", serif;
-    margin: 0;
+    margin: 0px;
+    border-top: 5px solid black;
+    border-left: 5px solid red;
+    border-bottom: 5px solid white;
+    border-right: 5px solid green;
 }
 
 #large-font{
-    size: 100px;
+    size: 200px;
     color: white;
     font-weight: 700;
     padding-top: 20%;
@@ -95,4 +99,23 @@ body{
 
 .medical-box{
     background-color: rgb(238, 230, 215);
+}
+
+.contribute-part{
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 50px 50px;
+}
+
+.img-format{
+    margin-left: 50px;
+    border-radius: 15px;
+}
+
+.footer-design{
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-family: "Pacifico", cursive;
+    padding: 30px 30px;
 }
